@@ -37,11 +37,60 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: "Rubik", sans-serif;
+	overflow: hidden;
 }
 
+/*Bg Images */
+/* Top left image */
 
+.top-leftImg {
+	background: linear-gradient(
+		to bottom left,
+		var(--clr-light-magenta) -30%,
+		var(--clr-light-violet) 80%
+	);
+	border-radius: 0 0 50% 50%;
+	width: 100vw;
+	height: 55vh;
+	position: absolute;
+	top: 0;
+	left: -50%;
+}
 
+/* Bottom right image */
 
+.bottom-rightImg {
+	background: var(--clr-light-grayish-violet);
+	border-radius: 50% 50% 0 0;
+	width: 100vw;
+	height: 55vh;
+	position: absolute;
+	bottom: 0;
+	right: -50%;
+	opacity: 30%;
+}
+@media screen and (min-width: 650px) {
+	.top-leftImg {
+		width: 80vw;
+		left: -30%;
+	}
+	.bottom-rightImg {
+		width: 80vw;
+		right: -30%;
+	}
+}
+@media screen and (min-width: 860px) {
+	.top-leftImg {
+		width: 55vw;
+		height: 90vh;
+		left: -15%;
+	}
+	.bottom-rightImg {
+		width: 55vw;
+		height: 90vh;
+		right: -23%;
+	}
+}
 
 /* Info block */
 
@@ -58,7 +107,7 @@ body {
 	margin: 0 auto;
 	line-height: 2.5rem;
 }
-@media screen and (min-width: 860px){
+@media screen and (min-width: 860px) {
 	.info-block {
 		text-align: left;
 	}
