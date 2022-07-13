@@ -1,0 +1,40 @@
+/* Universal Styling */
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	/* Text colors */
+	--clr-pale-violet: hsl(276, 100%, 81%); /* sub-heading at app UI top */
+	--clr-moderate-violet: hsl(276, 55%, 52%); /* chat on left */
+	--clr-desaturated-dark-violet: hsl(271, 15%, 43%); /* chat on right */
+	--clr-grayish-blue: hsl(206, 6%, 79%); /* Placeholder text */
+	--clr-vDark-desaturated-violet: hsl(
+		271,
+		36%,
+		24%
+	); /* Main heading */ /* Submit btn bg */
+	--clr-dark-grayish-violet: hsl(270, 7%, 64%); /* paragraph */
+
+	/* Gradient colors */
+	--clr-light-magenta: hsl(293, 100%, 63%);
+	--clr-light-violet: hsl(264, 100%, 61%);
+
+	/* Secondary colors */
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-light-grayish-violet: hsl(270, 20%, 96%); /* App bg */
+	--clr-vLight-magenta: hsl(289, 100%, 72%); /* Radio btn outline */
+}
+
+/* General Styling */
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	font-family: "Rubik", sans-serif;
+}
