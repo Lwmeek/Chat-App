@@ -58,3 +58,12 @@ body {
 	margin: 0 auto;
 	line-height: 2.5rem;
 }
+@media screen and (min-width: 860px){
+	.info-block {
+		text-align: left;
+	}
+	.info-block p {
+		margin: 0;
+		max-width: 45ch;
+	}
+}
