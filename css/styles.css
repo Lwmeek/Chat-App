@@ -38,3 +38,23 @@ body {
 	font-size: 1.6rem;
 	font-family: "Rubik", sans-serif;
 }
+
+
+
+
+
+/* Info block */
+
+.info-block {
+	text-align: center;
+}
+.info-block h1 {
+	color: var(--clr-vDark-desaturated-violet);
+	margin: 1.5rem 0;
+}
+.info-block p {
+	color: var(--clr-dark-grayish-violet);
+	max-width: 30ch;
+	margin: 0 auto;
+	line-height: 2.5rem;
+}
