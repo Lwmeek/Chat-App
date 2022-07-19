@@ -38,6 +38,7 @@ body {
 	font-size: 1.6rem;
 	font-family: "Rubik", sans-serif;
 	overflow: hidden;
+	background: var(--clr-light-grayish-violet);
 }
 
 /*Bg Images */
@@ -90,6 +91,108 @@ body {
 		height: 90vh;
 		right: -23%;
 	}
+}
+
+/* Phone Display */
+
+.phone {
+	width: 300px;
+	height: 600px;
+	background: var(--clr-white);
+	border-radius: 20px;
+	margin: 5rem auto;
+	padding: 2rem;
+}
+.phone-screen {
+	width: 260px;
+	height: 550px;
+	background: var(--clr-light-grayish-violet);
+	border-radius: 20px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.phone-header {
+	background: linear-gradient(
+		to left,
+		var(--clr-light-magenta) 10%,
+		var(--clr-light-violet) 80%
+	);
+	border-radius: 5px;
+}
+.top-white {
+	width: 50%;
+	height: 30px;
+	background: var(--clr-white);
+	border-radius: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: -1.2rem;
+}
+.phone-header img {
+	width: 30px;
+	border: 1.5px solid var(--clr-white);
+	border-radius: 100%;
+	margin-left: 5rem;
+}
+
+/* Messages */
+
+.message {
+	width: 60%;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	padding: 1.5rem;
+}
+.message-primary {
+	border-radius: 15px 15px 15px 3px;
+	background: hsla(269, 64%, 91%, 0.404);
+	color: var(--clr-moderate-violet);
+}
+.message-secondary {
+	border-radius: 15px 15px 3px 15px;
+	background: var(--clr-white);
+	color: var(--clr-desaturated-dark-violet);
+}
+.message-accent {
+	border-radius: 15px 15px 15px 3px;
+	background: linear-gradient(
+		to right,
+		var(--clr-light-magenta) 0%,
+		var(--clr-light-violet) 95%
+	);
+	color: var(--clr-grayish-blue);
+}
+
+/* Enter Message */
+
+.enter-message {
+	background: var(--clr-white);
+	border-radius: 50px;
+	width: 90%;
+	margin: 0 auto;
+	padding: .5rem .5rem .5rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--clr-grayish-blue);
+}
+.btn {
+	outline: var(--clr-vLight-magenta);
+	border: none;
+	border-radius: 100%;
+	background: var(--clr-vDark-desaturated-violet);
+	font-size: 1.9rem;
+	width: 30px;
+	height: 30px;
+}
+.btn::after {
+	content: '>';
+	color: var(--clr-white);
+	padding: .5rem;
+}
+.placeholder {
+	font-size: 1.3rem;
+	margin-top: .7rem;
 }
 
 /* Info block */
