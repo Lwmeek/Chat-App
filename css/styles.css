@@ -172,9 +172,9 @@ body {
 /* Messages */
 
 .message {
-	width: 60%;
-	padding: 1.1em;
+	width: 70%;
 	margin: 0;
+	padding: 0.7rem 1rem 0.7rem 1.2rem;
 }
 .message-primary {
 	border-radius: 15px 15px 15px 3px;
@@ -215,6 +215,29 @@ body {
 .txt-group p {
 	font-size: 0.53em;
 	line-height: 1.2rem;
+}
+.price-message_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.circle {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	border: 0.5px solid var(--clr-grayish-blue);
+	opacity: 50%;
+}
+.time {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+.price {
+	font-weight: bolder;
+}
+.price-message_content .price {
+	font-size: 1.3rem;
 }
 
 /* Enter Message */
