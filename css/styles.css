@@ -97,7 +97,7 @@ body {
 
 .phone {
 	width: 260px;
-	height: 570px;
+	height: 590px;
 	background: var(--clr-white);
 	border-radius: 25px;
 	margin: 2rem auto;
@@ -109,7 +109,7 @@ body {
 }
 .phone-screen {
 	width: 260px;
-	height: 550px;
+	height: 570px;
 	background: var(--clr-light-grayish-violet);
 	border-radius: 20px;
 	overflow: hidden;
@@ -173,9 +173,8 @@ body {
 
 .message {
 	width: 60%;
-	margin-left: 2rem;
-	margin-top: 2rem;
-	padding: 1.5rem;
+	padding: 1.1em;
+	margin: 0;
 }
 .message-primary {
 	border-radius: 15px 15px 15px 3px;
@@ -194,7 +193,28 @@ body {
 		var(--clr-light-magenta) 0%,
 		var(--clr-light-violet) 95%
 	);
-	color: var(--clr-grayish-blue);
+	color: var(--clr-white);
+}
+
+/* Message block images */
+
+.message-img {
+	width: 40px;
+	border-radius: 10px;
+	margin-right: 0.5rem;
+}
+
+/* Text group */
+
+.txt-group {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 1.3rem 1rem;
+}
+.txt-group p {
+	font-size: 0.53em;
+	line-height: 1.2rem;
 }
 
 /* Enter Message */
