@@ -38,7 +38,7 @@ body {
 	font-size: 1.6rem;
 	font-family: "Rubik", sans-serif;
 	overflow: hidden;
-	background: var(--clr-light-grayish-violet);
+	background: var(--clr-white);
 }
 
 /*Bg Images */
@@ -84,14 +84,16 @@ body {
 }
 @media screen and (min-width: 860px) {
 	.top-leftImg {
-		width: 55vw;
+		width: 45vw;
+		max-width: 650px;
 		height: 90vh;
 		left: -15%;
 	}
 	.bottom-rightImg {
-		width: 55vw;
+		width: 45vw;
+		max-width: 650px;
 		height: 90vh;
-		right: -23%;
+		right: -18%;
 	}
 }
 
@@ -300,7 +302,15 @@ body {
 	margin: 0 auto;
 	line-height: 2.8rem;
 }
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 900px) {
+	.body-content {
+		width: 90%;
+		max-width: 90rem;
+		display: flex;
+		align-items: center;
+		margin: 8rem auto 8rem;
+		
+	}
 	.info-block {
 		text-align: left;
 	}
